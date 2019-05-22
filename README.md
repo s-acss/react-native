@@ -55,8 +55,8 @@ export default class App extends React.Component {
 
 ## Name rules
 
-- Only Initials `${props.aic && \`align-items: center;\`}`;
-- Direct digital connection `${props.f1 && \`flex:1;\`}`;
+- Only Initials `aic && 'align-items: center;' }`;
+- Direct digital connection `${props.fw700 && 'font-weight:700'}`;
 
 
 ## API
