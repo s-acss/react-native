@@ -28,19 +28,16 @@ const CusText = styled(RnText)`
   ${props => Acss(props)}  
 `;
 export default class App extends React.Component {
-    static navigationOptions = {
-        title: 'Example1',
-    };
     render() {
         return (
-            <View bgc="#00ffff" p="30">
+            <View bc="#00ffff" p="30">
                 <View mb="16" aic>
                     <Image w="64" h="64" source={mImg1}/>
                 </View>
-                <Text c="#00FFFF" p="16" bgc="red" tac mb="16">Hello world!</Text>
+                <Text c="#00FFFF" p="16" bc="red" tac mb="16">Hello world!</Text>
                 <CusText mb="16">Custom text</CusText>
                 <ImageBackground source={mImg2}>
-                    <View p="16" bgc="rgba(0,0,0,.5)">
+                    <View p="16" bc="rgba(0,0,0,.5)">
                         <Text fs="40" lh="100" tac fwb c="#FFFF00">Hello Again!</Text>
                     </View>
                 </ImageBackground>
@@ -48,11 +45,10 @@ export default class App extends React.Component {
         );
     }
 };
+
 ```
 
 ![demo](./demo.png)
-
-
 
 ## Name rules
 
