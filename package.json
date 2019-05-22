@@ -1,0 +1,42 @@
+{
+  "name": "@y-fe/acss-react-native",
+  "version": "0.0.1",
+  "description": "ACSS react native 版本",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yued-fe/acss-react-native.git"
+  },
+  "keywords": [
+    "acss",
+    "css",
+    "atomic",
+    "vanilla",
+    "mixin",
+    "react native"
+  ],
+  "author": "yfe-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yued-fe/acss-react-native/issues"
+  },
+  "homepage": "https://yued-fe.github.io/acss-react-native/",
+  "peerDependencies": {
+    "react": "16.5.0",
+    "react-native": "^0.57.7",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
+
+
