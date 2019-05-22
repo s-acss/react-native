@@ -5,7 +5,8 @@ Quick way to write style in react native.
 Idea from Atomic CSS Design system.
 
 ```
-$ npm install --save  @y-fe/acss-react-native
+$ npm install @y-fe/acss-react-native
+$ yarn add @y-fe/acss-react-native
 ```
 
 ## How to use?
