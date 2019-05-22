@@ -1,6 +1,6 @@
 {
   "name": "@y-fe/acss-react-native",
-  "version": "0.0.9",
+  "version": "0.10.0",
   "description": "ACSS react native version",
   "main": "lib/index.js",
   "files": [
@@ -24,15 +24,12 @@
     "url": "https://github.com/yued-fe/acss-react-native/issues"
   },
   "homepage": "https://yued-fe.github.io/acss-react-native/",
-  "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "16.5.0",
     "react-native": "^0.57.7",
     "styled-components": "^4.2.0",
