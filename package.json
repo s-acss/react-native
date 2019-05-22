@@ -1,7 +1,7 @@
 {
   "name": "@y-fe/acss-react-native",
-  "version": "0.0.4",
-  "description": "ACSS react native 版本",
+  "version": "0.0.5",
+  "description": "ACSS react native version",
   "main": "lib/index.js",
   "files": [
     "lib"
