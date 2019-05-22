@@ -14,7 +14,7 @@ $ npm install --save  @y-fe/acss-react-native
 import React from 'react';
 import {Text as RnText} from 'react-native';
 import styled from "styled-components";
-import {View, Text, Image, ImageBackground, Acss} from './components/Acss';
+import {View, Text, Image, ImageBackground, Acss} from '@y-fe/acss-react-native';
 import mImg1 from '../assets/pics/10.jpg';
 import mImg2 from '../assets/pics/11.jpg';
 
@@ -62,10 +62,6 @@ export default class App extends React.Component {
 ## API
 
 ```JSX
-import React from "react";
-import styled from "styled-components";
-import {View, Text, Image, ImageBackground} from "react-native";
-
 const Acss = props => `
     ${props.ac && `align-content: ${props.ac};`};
     ${props.acs && `align-content: stretch;`};
@@ -109,17 +105,11 @@ const Acss = props => `
     ${props.dn && `display: none;`};
     ${props.f && `flex:${props.f};`};
     ${props.f1 && `flex:1;`};
-    ${props.fd && `flex-direction: ${props.fd};`};
     ${props.fdr && `flex-direction: row;`};
     ${props.fdrr && `flex-direction: row-reverse;`};
     ${props.fdc && `flex-direction: column;`};    
     ${props.fdcr && `flex-direction: column-reverse;`};
-    ${props.fwn && `flex-wrap: nowrap;`};
-    ${props.fs && `font-size: ${props.fs};`};
-    ${props.ff && `font-family: ${props.ff};`};
-    ${props.fsn && `font-style: normal;`};
-    ${props.fsi && `font-style: italic;`};
-    ${props.fwn && `font-weight:normal;`};
+    ${props.fwn && `flex-wrap: nowrap;`};    
     ${props.fwb && `font-weight:bold;`};    
     ${props.fw100 && `font-weight:100;`};
     ${props.fw100 && `font-weight:200;`};
@@ -130,8 +120,11 @@ const Acss = props => `
     ${props.fw700 && `font-weight:700;`};
     ${props.fw800 && `font-weight:800;`};
     ${props.fw900 && `font-weight:900;`};
-    ${props.h && `height:${props.h};`};
-    ${props.jc && `justify-content: ${props.jc};`};    
+    ${props.fs && `font-size: ${props.fs};`};
+    ${props.ff && `font-family: ${props.ff};`};
+    ${props.fsn && `font-style:normal;`};
+    ${props.fsi && `font-style:italic;`};
+    ${props.h && `height:${props.h};`}; 
     ${props.jcc && `justify-content: center;`};
     ${props.jcsb && `justify-content: space-between;`};
     ${props.jcfs && `justify-content: flex-start;`};
@@ -148,7 +141,7 @@ const Acss = props => `
     ${props.o && `opacity:${props.o};`};  
     ${props.oh && `overflow:hidden`};    
     ${props.p && `padding-top:${props.p}; padding-left:${props.p}; padding-right:${props.p}; padding-bottom:${props.p};`};
-    ${props.pa && `position:absolute;`};    
+    ${props.pa && `position:absolute;`};
     ${props.pr === true && `position:relative;`};
     ${props.pt && `padding-top:${props.pt};`};
     ${props.pr && props.pr > 0 && `padding-right:${props.pr};`};
@@ -170,13 +163,6 @@ const Acss = props => `
     ${props.w && `width:${props.w};`};
     ${props.zi && `z-index:${props.zi};`};
 `;
-
-const V = styled(View)`${props => Acss(props)}`;
-const T = styled(Text)`${props => Acss(props)}`;
-const ImgBg = styled(ImageBackground)`${props => Acss(props)}`;
-const Img = styled(Image)`${props => Acss(props)}`;
-export default Acss;
-export {V as View, T as Text, Img as Image, ImgBg as ImageBackground, Acss};
 ```
 
 Pure, simple, natural. 
