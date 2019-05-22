@@ -1,16 +1,14 @@
-# ACSS RN版本
+# ACSS React Native
 
-基于React Native实现的Atomic CSS，用于快速简易地便编写RN对象样式。
+Quick way to write style in react native.
 
-## 安装
+Idea from Atomic CSS Design system.
 
 ```
-npm install --save  @y-fe/acss-react-native
+$ npm install --save  @y-fe/acss-react-native
 ```
 
-## 用法
-
-### 基础版本
+## How to use?
 
 ```
 import React from 'react';
@@ -67,17 +65,17 @@ export default class App extends React.Component {
 
 ![demo](./demo.png)
 
-## 二维码体验Demo
 
-安装expo app：https://expo.io/tools
+
+## Name rules
+
+- Only Initials `${props.aic && \`align-items: center;\`}`;
+- Direct digital connection `${props.f1 && \`flex:1;\`}`;
 
 
 ## API
 
-和其它的同类型工具相比，
-我们只做了如下的样式约定。
-
-一切都是如此的简单和自然。
+Pure, simple, natural
 
 ```JSX
 const Acss = props => `
@@ -85,9 +83,8 @@ const Acss = props => `
     ${props.aifs && `align-items: flex-start;`};
     ${props.asfe && `align-self: flex-end;`};
     ${props.br && `border-radius:${props.br};`};
-    ${props.btw && `border-bottom-width:${props.btw};`};
-    ${props.btc && `border-bottom-color:${props.btc};`};
-    ${props.bg && `background:${props.bg};`};
+    ${props.bbw && `border-bottom-width:${props.bbw};`};
+    ${props.bbc && `border-bottom-color:${props.bbc};`};
     ${props.bc && `background-color:${props.bc};`};
     ${props.b && `bottom:${props.b};`};
     ${props.c && `color: ${props.c};`};
@@ -127,5 +124,4 @@ const Acss = props => `
 `;
 ```
 
-有 bug 需要修复。
-你可以给我们提issue 或者 merge request，一起来做好。
+It is not perfect, but we can make it better together [issue](https://github.com/yued-fe/acss-react-native/issues).
