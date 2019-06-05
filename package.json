@@ -1,6 +1,6 @@
 {
   "name": "@y-fe/acss-react-native",
-  "version": "0.10.1",
+  "version": "1.0.0",
   "description": "ACSS react native version",
   "main": "lib/index.js",
   "files": [
@@ -29,10 +29,12 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "peerDependencies": {
-    "react": "16.5.0",
-    "react-native": "^0.57.7",
+  "dependencies": {
     "styled-components": "^4.2.0",
     "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "16.5.0",
+    "react-native": "^0.57.7"
   }
 }
