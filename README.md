@@ -1,4 +1,4 @@
-# ACSS React Native
+# nu-acss-react-native
 
 Quick way to write style in react native.
 
@@ -168,4 +168,4 @@ As you can see that is all the code we create blew.
 
 We just did a little but can help you a lot when create style in react native.
 
-It is not perfect, but we can make it better together [issue](https://github.com/yued-fe/acss-react-native/issues).
+It is not perfect, but we can make it better together [issue](https://github.com/nu-system/acss-react-native/issues).

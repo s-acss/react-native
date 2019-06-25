@@ -6,10 +6,13 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yued-fe/acss-react-native.git"
+  "repository": "git@github.com:nu-system/acss-react-native.git",
+  "author": "yfe-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nu-system/acss-react-native/issues"
   },
+  "homepage": "https://nu-system.github.io/react-native/acss/",
   "keywords": [
     "acss",
     "css",
@@ -18,12 +21,6 @@
     "mixin",
     "react native"
   ],
-  "author": "yfe-team",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yued-fe/acss-react-native/issues"
-  },
-  "homepage": "https://yued-fe.github.io/acss-react-native/",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
