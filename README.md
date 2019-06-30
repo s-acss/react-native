@@ -1,12 +1,16 @@
-# nu-acss-react-native
+# nu-react-native-acss
+
+[![npm package][npm-badge]][npm]
+
+[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
+[npm]: https://www.npmjs.org/package/@_nu/react-native-acss
 
 Quick way to write style in react native.
 
 Idea from Atomic CSS Design system.
 
 ```
-$ npm install @y-fe/acss-react-native
-$ yarn add @y-fe/acss-react-native
+$ yarn add @_nu/react-native-acss
 ```
 
 ## How to use?
@@ -15,7 +19,7 @@ $ yarn add @y-fe/acss-react-native
 import React from 'react';
 import {Text as RnText} from 'react-native';
 import styled from "styled-components";
-import {View, Text, Image, ImageBackground, Acss} from '@y-fe/acss-react-native';
+import {View, Text, Image, ImageBackground, Acss} from '@_nu/react-native-acss';
 import mImg1 from '../assets/pics/10.jpg';
 import mImg2 from '../assets/pics/11.jpg';
 
