@@ -1,17 +1,15 @@
 {
-  "name": "@y-fe/acss-react-native",
-  "version": "1.0.0",
+  "name": "@_nu/react-native-acss",
+  "version": "0.0.1",
   "description": "ACSS react native version",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "git@github.com:nu-system/acss-react-native.git",
   "author": "yfe-team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nu-system/acss-react-native/issues"
-  },
+  "repository": "git@github.com:nu-system/react-native-acss.git",
+  "bugs": "https://github.com/nu-system/react-native-acss/issues",
   "homepage": "https://nu-system.github.io/react-native/acss/",
   "keywords": [
     "acss",
