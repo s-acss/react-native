@@ -1,6 +1,6 @@
 {
   "name": "@_nu/react-native-acss",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "ACSS react native version",
   "main": "lib/index.js",
   "files": [
@@ -19,17 +19,27 @@
     "mixin",
     "react native"
   ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+  "scripts": {
+    "build": "cp -r demo/packages/withAcss/ ./lib",
+    "prepublishOnly": "npm run build",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "commitInit": "commitizen init cz-conventional-changelog --yarn --dev --exact"
   },
   "dependencies": {
-    "styled-components": "^4.2.0",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
     "react": "16.5.0",
     "react-native": "^0.57.7"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-changelog-cli": "^2.0.21",
+    "cz-conventional-changelog": "3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
