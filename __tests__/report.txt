@@ -1,3 +1,7 @@
+passed function attribute p padding四个方向  p padding四个方向
+passed function attribute m margin4个方法向  m margin4个方法向
+passed function attribute pr 两种可能 —— position:relative  pr 两种可能 —— position:relative
+passed function attribute pr 两种可能 —— padding-right  pr 两种可能 —— padding-right
 passed CusText CusText正常渲染  CusText正常渲染
 passed CusText CusText Acss 样式渲染  CusText Acss 样式渲染
 passed CusView CusView正常渲染  CusView正常渲染
@@ -53,3 +57,4 @@ passed Attribute r  r
 passed Attribute t  t
 passed Attribute w  w
 passed Attribute zi  zi
+passed map stylemap to proptypes is proptypes sync with stylemap  is proptypes sync with stylemap

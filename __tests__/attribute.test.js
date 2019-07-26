@@ -1,6 +1,5 @@
-import React from 'react';
-import  {
-  Text, View
+
+import {acssPropTypes
 } from '../lib/index';
 import styleMap from "../lib/styleMap";
 
@@ -39,4 +38,13 @@ describe("Attribute",()=>{
             expect(i).toBe(values[i])
         })
     }
+})
+describe("map stylemap to proptypes",()=>{
+    it("is proptypes sync with stylemap",()=>{
+        
+        for(let i in styleMap){
+            expect(acssPropTypes[i] instanceof Function).toBe(true)
+        }
+
+    })
 })
