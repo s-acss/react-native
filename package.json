@@ -23,7 +23,8 @@
     "build": "cp -r demo/packages/withAcss/ ./lib",
     "prepublishOnly": "npm run build",
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "commitInit": "commitizen init cz-conventional-changelog --yarn --dev --exact"
+    "commitInit": "commitizen init cz-conventional-changelog --yarn --dev --exact",
+    "test": "jest --verbose"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
@@ -33,9 +34,24 @@
     "react-native": "^0.57.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "babel-jest": "^24.8.0",
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.21",
-    "cz-conventional-changelog": "3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "jsdom": "^15.1.1",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react": "16.3.1",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.60.0",
+    "react-native-mock-render": "^0.1.5",
+    "react-test-renderer": "^16.8.6",
+    "sinon": "^7.3.2"
   },
   "config": {
     "commitizen": {

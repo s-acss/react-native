@@ -1,0 +1,55 @@
+passed CusText CusText正常渲染  CusText正常渲染
+passed CusText CusText Acss 样式渲染  CusText Acss 样式渲染
+passed CusView CusView正常渲染  CusView正常渲染
+passed CusView CusView Acss 样式渲染  CusView Acss 样式渲染
+passed Text Text正常渲染  Text正常渲染
+passed Text Text Acss 样式渲染  Text Acss 样式渲染
+passed View View正常渲染  View正常渲染
+passed View View Acss 样式渲染  View Acss 样式渲染
+passed ImageBackground ImageBackground正常渲染  ImageBackground正常渲染
+passed ImageBackground ImageBackground Acss 样式渲染  ImageBackground Acss 样式渲染
+passed Image Image正常渲染  Image正常渲染
+passed Image Image Acss 样式渲染  Image Acss 样式渲染
+passed Attribute ac  ac
+passed Attribute ai  ai
+passed Attribute as  as
+passed Attribute bc  bc
+passed Attribute br  br
+passed Attribute bw  bw
+passed Attribute bs  bs
+passed Attribute btw  btw
+passed Attribute btc  btc
+passed Attribute brw  brw
+passed Attribute brc  brc
+passed Attribute bbw  bbw
+passed Attribute bbc  bbc
+passed Attribute blw  blw
+passed Attribute blc  blc
+passed Attribute btrr  btrr
+passed Attribute btlr  btlr
+passed Attribute bbrr  bbrr
+passed Attribute bblr  bblr
+passed Attribute b  b
+passed Attribute c  c
+passed Attribute f  f
+passed Attribute fs  fs
+passed Attribute ff  ff
+passed Attribute h  h
+passed Attribute l  l
+passed Attribute lh  lh
+passed Attribute mt  mt
+passed Attribute mr  mr
+passed Attribute mb  mb
+passed Attribute ml  ml
+passed Attribute mh  mh
+passed Attribute mv  mv
+passed Attribute o  o
+passed Attribute pt  pt
+passed Attribute pb  pb
+passed Attribute pl  pl
+passed Attribute ph  ph
+passed Attribute pv  pv
+passed Attribute r  r
+passed Attribute t  t
+passed Attribute w  w
+passed Attribute zi  zi
