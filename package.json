@@ -1,22 +1,21 @@
 {
-  "name": "@_nu/react-native-acss",
-  "version": "0.0.3",
-  "description": "ACSS react native version",
+  "name": "@sacss/react-native",
+  "version": "1.0.0",
+  "description": "Static Atomic CSS React Native version",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "author": "yfe-team",
+  "author": "ziven27",
   "license": "MIT",
-  "repository": "git@github.com:nu-system/react-native-acss.git",
-  "bugs": "https://github.com/nu-system/react-native-acss/issues",
-  "homepage": "https://nu-system.github.io/react-native/acss/",
+  "repository": "git@github.com:s-acss/react-native.git",
+  "bugs": "https://github.com/s-acss/react-native/issues",
+  "homepage": "https://s-acss.github.io/docs/use.rn",
   "keywords": [
     "acss",
+    "sacss",
     "css",
     "atomic",
-    "vanilla",
-    "mixin",
     "react native"
   ],
   "scripts": {
